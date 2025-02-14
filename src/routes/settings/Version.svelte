@@ -60,10 +60,10 @@
 							<Button variant="link" on:click={() => window.location.reload()}>
 								{$LL.refreshToUpdate()}
 							</Button>
-						{:else if $settingsStore.hollamaMetadata.isDocker}
+						{:else if $settingsStore.myllamaMetadata.isDocker}
 							<Button
 								variant="link"
-								href="https://github.com/fmaclen/hollama/blob/main/SELF_HOSTING.md#updating-to-the-latest-version"
+								href="https://github.com/fmaclen/myllama/blob/main/SELF_HOSTING.md#updating-to-the-latest-version"
 								target="_blank"
 							>
 								{$LL.howToUpdateDocker()}

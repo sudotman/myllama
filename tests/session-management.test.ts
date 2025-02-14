@@ -238,7 +238,7 @@ test.describe('Session management', () => {
 		await page.evaluate(
 			({ modelA, modelB }) =>
 				window.localStorage.setItem(
-					'hollama-sessions',
+					'myllama-sessions',
 					JSON.stringify([
 						{
 							id: 'qbhc0q',
@@ -287,7 +287,7 @@ test.describe('Session management', () => {
 		await page.getByText('Sessions', { exact: true }).click();
 		await expect(page.getByText('No sessions')).toBeVisible();
 		await expect(page.getByTestId('session-item')).toHaveCount(0);
-		expect(await page.evaluate(() => window.localStorage.getItem('hollama-sessions'))).toBe('[]');
+		expect(await page.evaluate(() => window.localStorage.getItem('myllama-sessions'))).toBe('[]');
 	});
 
 	test('truncates session titles correctly', async ({ page }) => {
@@ -302,7 +302,7 @@ test.describe('Session management', () => {
 		await chooseModel(page, MOCK_API_TAGS_RESPONSE.models[0].name);
 
 		// Check initial title
-		await expect(page).toHaveTitle('New session • Sessions • Hollama');
+		await expect(page).toHaveTitle('New session • Sessions • myllama');
 		await expect(page.getByTestId('session-item')).not.toBeVisible();
 
 		// Submit prompt and verify truncation
@@ -310,7 +310,7 @@ test.describe('Session management', () => {
 		await page.getByText('Run').click();
 
 		// Verify page title is truncated
-		await expect(page).toHaveTitle(`${truncatedPrompt} • Sessions • Hollama`);
+		await expect(page).toHaveTitle(`${truncatedPrompt} • Sessions • myllama`);
 
 		// Verify sidebar list item is truncated
 		await expect(page.getByTestId('session-item')).toBeVisible();

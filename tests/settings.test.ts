@@ -12,7 +12,7 @@ test.describe('Settings', () => {
 
 		// Check if the settings store is updated with the selected server
 		let localStorageServers = await page.evaluate(() =>
-			window.localStorage.getItem('hollama-servers')
+			window.localStorage.getItem('myllama-servers')
 		);
 		expect(localStorageServers).toContain('"baseUrl":"http://localhost:11434"');
 
@@ -23,7 +23,7 @@ test.describe('Settings', () => {
 
 		// Check the settings have been saved to localStorage
 		let localStorageSettings = await page.evaluate(() =>
-			window.localStorage.getItem('hollama-settings')
+			window.localStorage.getItem('myllama-settings')
 		);
 		expect(localStorageSettings).toContain('"userTheme":"dark"');
 
@@ -35,17 +35,17 @@ test.describe('Settings', () => {
 
 		// Wait for page reload
 		await page.waitForFunction(() => {
-			return window.localStorage.getItem('hollama-servers') !== null;
+			return window.localStorage.getItem('myllama-servers') !== null;
 		});
 
 		// Check the servers have been removed completely
-		localStorageServers = await page.evaluate(() => window.localStorage.getItem('hollama-servers'));
+		localStorageServers = await page.evaluate(() => window.localStorage.getItem('myllama-servers'));
 		expect(localStorageServers).not.toContain('"baseUrl":"http://localhost:11434"');
 		await expect(page.getByText('Base URL')).not.toBeVisible();
 
 		// Check the settings have been reset to defaults
 		localStorageSettings = await page.evaluate(() =>
-			window.localStorage.getItem('hollama-settings')
+			window.localStorage.getItem('myllama-settings')
 		);
 		expect(localStorageSettings).not.toContain('"userTheme":"dark"');
 		await expect(page.getByText('Dark')).toBeVisible();
@@ -72,7 +72,7 @@ test.describe('Settings', () => {
 		await expect(languageCombobox).not.toBeVisible();
 		await expect(idiomaCombobox).toHaveValue('Español');
 		let localStorageValue = await page.evaluate(() =>
-			window.localStorage.getItem('hollama-settings')
+			window.localStorage.getItem('myllama-settings')
 		);
 		expect(localStorageValue).toContain('"userLanguage":"es"');
 
@@ -82,7 +82,7 @@ test.describe('Settings', () => {
 		await idiomaCombobox.click();
 		await page.getByRole('option', { name: 'English' }).click();
 
-		localStorageValue = await page.evaluate(() => window.localStorage.getItem('hollama-settings'));
+		localStorageValue = await page.evaluate(() => window.localStorage.getItem('myllama-settings'));
 		expect(localStorageValue).toContain('"userLanguage":"en"');
 		await expect(page.getByText('Servers')).toBeVisible();
 		await expect(page.getByText('Servidores')).not.toBeVisible();

@@ -6,13 +6,13 @@
 		<link rel="stylesheet" href="/fonts/inter/inter.css" />
 		<link rel="stylesheet" href="/fonts/jetbrains-mono/jetbrains-mono.css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-		<title>Hollama</title>
+		<title>myllama</title>
 		%sveltekit.head%
 	</head>
 	<script>
 		// We check and apply the color theme preference on initial load
 		// to prevent a flash of unstyled content
-		let theme = JSON.parse(localStorage.getItem('hollama-settings'))?.userTheme;
+		let theme = JSON.parse(localStorage.getItem('myllama-settings'))?.userTheme;
 		if (theme) document.documentElement.setAttribute('data-color-theme', theme);
 		else {
 			theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';

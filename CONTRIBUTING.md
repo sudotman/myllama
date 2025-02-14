@@ -3,14 +3,14 @@
 Here's ways in which you can contribute:
 
 - Found a **bug** or have a **feature request**?
-  1. Search for it in the [existing issues](https://github.com/fmaclen/hollama/issues)
-  2. Open a [new issue](https://github.com/fmaclen/hollama/issues/new) if it doesn't yet exist
-- Comment or upvote [existing issues](https://github.com/fmaclen/hollama/issues) _(active issues will likely be prioritized)_
-- Submit a [pull request](https://github.com/fmaclen/hollama/pulls) _(please discuss in an issue first)_
+  1. Search for it in the [existing issues](https://github.com/fmaclen/myllama/issues)
+  2. Open a [new issue](https://github.com/fmaclen/myllama/issues/new) if it doesn't yet exist
+- Comment or upvote [existing issues](https://github.com/fmaclen/myllama/issues) _(active issues will likely be prioritized)_
+- Submit a [pull request](https://github.com/fmaclen/myllama/pulls) _(please discuss in an issue first)_
 
 ## Developing
 
-Hollama is a static site built with:
+myllama is a static site built with:
 
 - TypeScript
 - Svelte & SvelteKit
@@ -33,7 +33,7 @@ npm run electron
 
 ## Building
 
-To create a production version of Hollama:
+To create a production version of myllama:
 
 ```bash
 npm run build

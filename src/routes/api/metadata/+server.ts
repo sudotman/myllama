@@ -3,7 +3,7 @@ import { json } from '@sveltejs/kit';
 import { env } from '$env/dynamic/public';
 import { version } from '$app/environment';
 
-export interface HollamaMetadata {
+export interface myllamaMetadata {
 	currentVersion: string;
 	isDocker: boolean;
 	isDesktop: boolean;
@@ -15,5 +15,5 @@ export async function GET() {
 		currentVersion: version,
 		isDesktop: env.PUBLIC_ADAPTER === 'electron-node',
 		isDocker: env.PUBLIC_ADAPTER === 'docker-node'
-	} as HollamaMetadata);
+	} as myllamaMetadata);
 }

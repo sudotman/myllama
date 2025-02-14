@@ -7,13 +7,13 @@
 
 	function deleteStorage(item: StorageKey): void {
 		const dialogText: Partial<Record<StorageKey, string>> = {
-			[StorageKey.HollamaSessions]: $LL.areYouSureYouWantToDeleteAllSessions(),
-			[StorageKey.HollamaKnowledge]: $LL.areYouSureYouWantToDeleteAllKnowledge(),
-			[StorageKey.HollamaSettings]: $LL.areYouSureYouWantToDeleteAllSettings()
+			[StorageKey.myllamaSessions]: $LL.areYouSureYouWantToDeleteAllSessions(),
+			[StorageKey.myllamaKnowledge]: $LL.areYouSureYouWantToDeleteAllKnowledge(),
+			[StorageKey.myllamaSettings]: $LL.areYouSureYouWantToDeleteAllSettings()
 		};
 		if (confirm(dialogText[item])) {
 			localStorage.removeItem(item);
-			if (item === StorageKey.HollamaSettings) localStorage.removeItem(StorageKey.HollamaServers);
+			if (item === StorageKey.myllamaSettings) localStorage.removeItem(StorageKey.myllamaServers);
 			location.reload();
 		}
 	}
@@ -21,13 +21,13 @@
 
 <Fieldset>
 	<P><strong>{$LL.dangerZone()}</strong></P>
-	<Button variant="outline" on:click={() => deleteStorage(StorageKey.HollamaSessions)}>
+	<Button variant="outline" on:click={() => deleteStorage(StorageKey.myllamaSessions)}>
 		{$LL.deleteAllSessions()}
 	</Button>
-	<Button variant="outline" on:click={() => deleteStorage(StorageKey.HollamaKnowledge)}>
+	<Button variant="outline" on:click={() => deleteStorage(StorageKey.myllamaKnowledge)}>
 		{$LL.deleteAllKnowledge()}
 	</Button>
-	<Button variant="outline" on:click={() => deleteStorage(StorageKey.HollamaSettings)}>
+	<Button variant="outline" on:click={() => deleteStorage(StorageKey.myllamaSettings)}>
 		{$LL.deleteAllSettings()}
 	</Button>
 </Fieldset>

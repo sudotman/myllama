@@ -42,7 +42,7 @@ test('seed data and take screenshots for README.md', async ({ page }) => {
 	await page.evaluate(
 		({ modelA, modelB }) =>
 			window.localStorage.setItem(
-				'hollama-sessions',
+				'myllama-sessions',
 				// FIXME: we use set a type here to make sure these are `Session[]`
 				JSON.stringify([
 					{

@@ -6,10 +6,10 @@
 
 ## Getting started
 
-To host your own Hollama server, [install Docker](https://www.docker.com/products/docker-desktop/) and run the command below in your favorite terminal:
+To host your own myllama server, [install Docker](https://www.docker.com/products/docker-desktop/) and run the command below in your favorite terminal:
 
 ```shell
-docker run --rm -d -p 4173:4173 --name hollama ghcr.io/fmaclen/hollama:latest
+docker run --rm -d -p 4173:4173 --name myllama ghcr.io/fmaclen/myllama:latest
 ```
 
 Then visit [http://localhost:4173](http://localhost:4173)
@@ -19,19 +19,19 @@ Then visit [http://localhost:4173](http://localhost:4173)
 To update, first stop the container:
 
 ```shell
-docker stop hollama
+docker stop myllama
 ```
 
 Then pull the latest version:
 
 ```shell
-docker pull ghcr.io/fmaclen/hollama:latest
+docker pull ghcr.io/fmaclen/myllama:latest
 ```
 
 Finally, start the container again:
 
 ```shell
-docker run --rm -d -p 4173:4173 --name hollama ghcr.io/fmaclen/hollama:latest
+docker run --rm -d -p 4173:4173 --name myllama ghcr.io/fmaclen/myllama:latest
 ```
 
 ## Connecting to an Ollama server hosted elsewhere
@@ -39,5 +39,5 @@ docker run --rm -d -p 4173:4173 --name hollama ghcr.io/fmaclen/hollama:latest
 If you are using the publicly hosted version or your Docker server is on a separate device than the Ollama server you'll have to set the domain in `OLLAMA_ORIGINS`. [Learn more in Ollama's docs](https://github.com/ollama/ollama/blob/main/docs/faq.md#how-do-i-configure-ollama-server).
 
 ```bash
-OLLAMA_ORIGINS=https://hollama.fernando.is ollama serve
+OLLAMA_ORIGINS=https://myllama.fernando.is ollama serve
 ```

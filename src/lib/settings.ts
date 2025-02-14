@@ -2,7 +2,7 @@ import type { Locales } from '$i18n/i18n-types';
 import { env } from '$env/dynamic/public';
 import { version } from '$app/environment';
 
-import type { HollamaMetadata } from '../routes/api/metadata/+server';
+import type { myllamaMetadata } from '../routes/api/metadata/+server';
 
 export interface Model {
 	serverId: string;
@@ -19,7 +19,7 @@ export interface Settings {
 	autoCheckForUpdates: boolean;
 	userTheme: 'light' | 'dark';
 	userLanguage: Locales | null;
-	hollamaMetadata: HollamaMetadata;
+	myllamaMetadata: myllamaMetadata;
 }
 
 export const DEFAULT_SETTINGS: Settings = {
@@ -29,7 +29,7 @@ export const DEFAULT_SETTINGS: Settings = {
 	autoCheckForUpdates: false,
 	userTheme: 'light',
 	userLanguage: null,
-	hollamaMetadata: {
+	myllamaMetadata: {
 		currentVersion: version,
 		isDesktop: env.PUBLIC_ADAPTER === 'electron-node',
 		isDocker: env.PUBLIC_ADAPTER === 'docker-node'

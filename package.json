@@ -1,8 +1,8 @@
 {
-	"name": "hollama",
+	"name": "myllama",
 	"version": "0.0.0-dev",
 	"private": true,
-	"homepage": "https://hollama.fernando.is",
+	"homepage": "https://myllama.fernando.is",
 	"description": "A minimal UI for talking to Ollama servers",
 	"scripts": {
 		"dev": "concurrently \"typesafe-i18n\" \"vite dev --host\"",

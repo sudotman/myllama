@@ -11,7 +11,7 @@ test.describe('Locales', () => {
 			await page.reload();
 			await expect(page.getByText('Servers')).not.toBeVisible();
 			await expect(page.getByText('Servidores')).toBeVisible();
-			expect(await page.evaluate(() => window.localStorage.getItem('hollama-settings'))).toContain(
+			expect(await page.evaluate(() => window.localStorage.getItem('myllama-settings'))).toContain(
 				'"userLanguage":"es"'
 			);
 		});
@@ -27,7 +27,7 @@ test.describe('Locales', () => {
 			await page.reload();
 			await expect(page.getByText('Servers')).not.toBeVisible();
 			await expect(page.getByText('サーバー')).toBeVisible();
-			expect(await page.evaluate(() => window.localStorage.getItem('hollama-settings'))).toContain(
+			expect(await page.evaluate(() => window.localStorage.getItem('myllama-settings'))).toContain(
 				'"userLanguage":"ja"'
 			);
 		});
@@ -43,7 +43,7 @@ test.describe('Locales', () => {
 			await page.reload();
 			await expect(page.getByText('Servers')).not.toBeVisible();
 			await expect(page.getByText('Sunucular')).toBeVisible();
-			expect(await page.evaluate(() => window.localStorage.getItem('hollama-settings'))).toContain(
+			expect(await page.evaluate(() => window.localStorage.getItem('myllama-settings'))).toContain(
 				'"userLanguage":"tr"'
 			);
 		});
@@ -59,7 +59,7 @@ test.describe('Locales', () => {
 			await page.reload();
 			await expect(page.getByText('Servers')).not.toBeVisible();
 			await expect(page.getByText('Servidores')).toBeVisible();
-			expect(await page.evaluate(() => window.localStorage.getItem('hollama-settings'))).toContain(
+			expect(await page.evaluate(() => window.localStorage.getItem('myllama-settings'))).toContain(
 				'"userLanguage":"pt-br"'
 			);
 		});
@@ -75,7 +75,7 @@ test.describe('Locales', () => {
 			await page.reload();
 			await expect(page.getByText('Servers')).not.toBeVisible();
 			await expect(page.getByText('服务器', { exact: true })).toBeVisible();
-			expect(await page.evaluate(() => window.localStorage.getItem('hollama-settings'))).toContain(
+			expect(await page.evaluate(() => window.localStorage.getItem('myllama-settings'))).toContain(
 				'"userLanguage":"zh-cn"'
 			);
 		});
@@ -91,7 +91,7 @@ test.describe('Locales', () => {
 			await page.reload();
 			await expect(page.getByText('Servers')).not.toBeVisible();
 			await expect(page.getByText('Máy chủ')).toBeVisible();
-			expect(await page.evaluate(() => window.localStorage.getItem('hollama-settings'))).toContain(
+			expect(await page.evaluate(() => window.localStorage.getItem('myllama-settings'))).toContain(
 				'"userLanguage":"vi"'
 			);
 		});
@@ -107,7 +107,7 @@ test.describe('Locales', () => {
 			await page.reload();
 			await expect(page.getByText('Current version')).not.toBeVisible();
 			await expect(page.getByText('Aktuelle Version')).toBeVisible();
-			expect(await page.evaluate(() => window.localStorage.getItem('hollama-settings'))).toContain(
+			expect(await page.evaluate(() => window.localStorage.getItem('myllama-settings'))).toContain(
 				'"userLanguage":"de"'
 			);
 		});
@@ -123,7 +123,7 @@ test.describe('Locales', () => {
 			await page.reload();
 			await expect(page.getByText('Servers')).not.toBeVisible();
 			await expect(page.getByText('Serveurs')).toBeVisible();
-			expect(await page.evaluate(() => window.localStorage.getItem('hollama-settings'))).toContain(
+			expect(await page.evaluate(() => window.localStorage.getItem('myllama-settings'))).toContain(
 				'"userLanguage":"fr"'
 			);
 		});

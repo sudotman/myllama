@@ -165,7 +165,7 @@ test('all knowledge can be deleted', async ({ page }) => {
 	// Stage 2 knowledge
 	await page.evaluate(
 		({ mockKnowledge }) =>
-			window.localStorage.setItem('hollama-knowledge', JSON.stringify(mockKnowledge)),
+			window.localStorage.setItem('myllama-knowledge', JSON.stringify(mockKnowledge)),
 		{ mockKnowledge: MOCK_KNOWLEDGE }
 	);
 
@@ -180,7 +180,7 @@ test('all knowledge can be deleted', async ({ page }) => {
 	await page.getByText('Knowledge', { exact: true }).click();
 	await expect(page.getByText('No knowledge')).toBeVisible();
 	await expect(page.getByTestId('knowledge-item')).toHaveCount(0);
-	expect(await page.evaluate(() => window.localStorage.getItem('hollama-knowledge'))).toBe('[]');
+	expect(await page.evaluate(() => window.localStorage.getItem('myllama-knowledge'))).toBe('[]');
 });
 
 test('can use knowledge as system prompt in the session', async ({ page }) => {

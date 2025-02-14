@@ -182,7 +182,7 @@ export async function mockOllamaModelsResponse(page: Page) {
 
 	// Add the default server to the servers list
 	await page.evaluate(
-		(data) => window.localStorage.setItem('hollama-servers', JSON.stringify(data)),
+		(data) => window.localStorage.setItem('myllama-servers', JSON.stringify(data)),
 		[{ ...getDefaultServer(ConnectionType.Ollama) }]
 	);
 
@@ -282,7 +282,7 @@ export const MOCK_KNOWLEDGE: Knowledge[] = [
 	},
 	{
 		id: 'uv96i4',
-		name: 'Hollama: Directory tree',
+		name: 'myllama: Directory tree',
 		content:
 			'```\n.\n├── Dockerfile\n├── LICENSE\n├── README.md\n├── build\n├── docs\n├── node_modules\n├── package-lock.json\n├── package.json\n├── playwright.config.ts\n├── postcss.config.cjs\n├── src\n├── static\n├── svelte.config.js\n├── tailwind.config.js\n├── test-results\n├── tests\n├── tsconfig.json\n└── vite.config.ts\n```',
 		updatedAt: '2024-07-01T17:17:40.789Z'
@@ -292,7 +292,7 @@ export const MOCK_KNOWLEDGE: Knowledge[] = [
 export async function seedKnowledgeAndReload(page: Page) {
 	// To generate the knowledge we need to pass the mocked data to the browser context
 	await page.evaluate(
-		(data) => window.localStorage.setItem('hollama-knowledge', JSON.stringify(data)),
+		(data) => window.localStorage.setItem('myllama-knowledge', JSON.stringify(data)),
 		MOCK_KNOWLEDGE
 	);
 

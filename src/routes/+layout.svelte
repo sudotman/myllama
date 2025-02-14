@@ -41,7 +41,7 @@
 		setLocale($settingsStore.userLanguage);
 
 		// Migrate old server settings to new format
-		const settingsLocalStorage = localStorage.getItem(StorageKey.HollamaSettings);
+		const settingsLocalStorage = localStorage.getItem(StorageKey.myllamaSettings);
 		if (settingsLocalStorage) {
 			const settings = JSON.parse(settingsLocalStorage);
 
@@ -80,7 +80,7 @@
 				}
 
 				// Reset the settings store with the removed keys
-				localStorage.removeItem(StorageKey.HollamaSettings);
+				localStorage.removeItem(StorageKey.myllamaSettings);
 				settingsStore.set(settings);
 
 				// Ask the user to re-verify the server connections
@@ -132,7 +132,7 @@
 <div class="layout">
 	<aside class="layout__aside">
 		<a href="/" class="layout__a layout__a--logo">
-			<img class="layout__logo" src="/favicon.png" alt="Hollama logo" />
+			<img class="layout__logo" src="/favicon.png" alt="myllama logo" />
 		</a>
 
 		{#each SITEMAP as href}

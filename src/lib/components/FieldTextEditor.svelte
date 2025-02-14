@@ -22,7 +22,7 @@
 	$: if (container) renderTextEditor();
 
 	// REF https://thememirror.net/create
-	const hollamaThemeLight = createTheme({
+	const myllamaThemeLight = createTheme({
 		variant: 'light',
 		settings: {
 			background: '#fff',
@@ -36,7 +36,7 @@
 		styles: [] // No styles for syntax highlighting
 	});
 
-	const hollamaThemeDark = createTheme({
+	const myllamaThemeDark = createTheme({
 		variant: 'dark',
 		settings: {
 			background: '#1e1e1e',
@@ -78,7 +78,7 @@
 				updateValue,
 				EditorView.lineWrapping,
 				Prec.highest(overrideModEnterKeymap),
-				$settingsStore.userTheme === 'dark' ? hollamaThemeDark : hollamaThemeLight
+				$settingsStore.userTheme === 'dark' ? myllamaThemeDark : myllamaThemeLight
 			],
 			parent: container
 		});

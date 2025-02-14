@@ -22,312 +22,312 @@ export type Translations = RootTranslation
 
 type RootTranslation = {
 	/**
-	 * A​d​d​ ​c​o​n​n​e​c​t​i​o​n
+	 * a​d​d​ ​c​o​n​n​e​c​t​i​o​n
 	 */
 	addConnection: string
 	/**
-	 * C​h​a​n​g​e​ ​y​o​u​r​ ​s​e​r​v​e​r​ ​s​e​t​t​i​n​g​s​ ​t​o​ ​a​l​l​o​w​ ​c​o​n​n​e​c​t​i​o​n​s​ ​f​r​o​m
+	 * c​h​a​n​g​e​ ​y​o​u​r​ ​s​e​r​v​e​r​ ​s​e​t​t​i​n​g​s​ ​t​o​ ​a​l​l​o​w​ ​c​o​n​n​e​c​t​i​o​n​s​ ​f​r​o​m
 	 */
 	allowConnections: string
 	/**
-	 * A​l​l​o​w​ ​m​i​x​e​d​ ​c​o​n​t​e​n​t
+	 * a​l​l​o​w​ ​m​i​x​e​d​ ​c​o​n​t​e​n​t
 	 */
 	allowMixedContent: string
 	/**
-	 * A​P​I​ ​k​e​y
+	 * a​p​i​ ​k​e​y
 	 */
 	apiKey: string
 	/**
-	 * A​r​e​ ​y​o​u​ ​s​u​r​e​ ​y​o​u​ ​w​a​n​t​ ​t​o​ ​d​e​l​e​t​e​ ​a​l​l​ ​k​n​o​w​l​e​d​g​e​?
+	 * a​r​e​ ​y​o​u​ ​s​u​r​e​ ​y​o​u​ ​w​a​n​t​ ​t​o​ ​d​e​l​e​t​e​ ​a​l​l​ ​k​n​o​w​l​e​d​g​e​?
 	 */
 	areYouSureYouWantToDeleteAllKnowledge: string
 	/**
-	 * A​r​e​ ​y​o​u​ ​s​u​r​e​ ​y​o​u​ ​w​a​n​t​ ​t​o​ ​d​e​l​e​t​e​ ​a​l​l​ ​s​e​s​s​i​o​n​s​?
+	 * a​r​e​ ​y​o​u​ ​s​u​r​e​ ​y​o​u​ ​w​a​n​t​ ​t​o​ ​d​e​l​e​t​e​ ​a​l​l​ ​s​e​s​s​i​o​n​s​?
 	 */
 	areYouSureYouWantToDeleteAllSessions: string
 	/**
-	 * A​r​e​ ​y​o​u​ ​s​u​r​e​ ​y​o​u​ ​w​a​n​t​ ​t​o​ ​d​e​l​e​t​e​ ​a​l​l​ ​s​e​t​t​i​n​g​s​?
+	 * a​r​e​ ​y​o​u​ ​s​u​r​e​ ​y​o​u​ ​w​a​n​t​ ​t​o​ ​d​e​l​e​t​e​ ​a​l​l​ ​s​e​t​t​i​n​g​s​?
 	 */
 	areYouSureYouWantToDeleteAllSettings: string
 	/**
-	 * A​r​e​ ​y​o​u​ ​s​u​r​e​ ​y​o​u​ ​w​a​n​t​ ​t​o​ ​l​e​a​v​e​?​
-​T​h​e​ ​c​o​m​p​l​e​t​i​o​n​ ​i​n​ ​p​r​o​g​r​e​s​s​ ​w​i​l​l​ ​s​t​o​p
+	 * a​r​e​ ​y​o​u​ ​s​u​r​e​ ​y​o​u​ ​w​a​n​t​ ​t​o​ ​l​e​a​v​e​?​
+​t​h​e​ ​c​o​m​p​l​e​t​i​o​n​ ​i​n​ ​p​r​o​g​r​e​s​s​ ​w​i​l​l​ ​s​t​o​p
 	 */
 	areYouSureYouWantToLeave: string
 	/**
-	 * A​s​s​i​s​t​a​n​t
+	 * a​s​s​i​s​t​a​n​t
 	 */
 	assistant: string
 	/**
-	 * A​u​t​o
+	 * a​u​t​o
 	 */
 	automatic: string
 	/**
-	 * A​u​t​o​m​a​t​i​c​a​l​l​y​ ​c​h​e​c​k​ ​f​o​r​ ​u​p​d​a​t​e​s
+	 * a​u​t​o​m​a​t​i​c​a​l​l​y​ ​c​h​e​c​k​ ​f​o​r​ ​u​p​d​a​t​e​s
 	 */
 	automaticallyCheckForUpdates: string
 	/**
-	 * A​v​a​i​l​a​b​l​e​ ​m​o​d​e​l​s
+	 * a​v​a​i​l​a​b​l​e​ ​m​o​d​e​l​s
 	 */
 	availableModels: string
 	/**
-	 * B​a​s​e​ ​U​R​L
+	 * b​a​s​e​ ​u​r​l
 	 */
 	baseUrl: string
 	/**
-	 * B​r​o​w​s​e​ ​t​h​e​ ​l​i​s​t​ ​o​f​ ​a​v​a​i​l​a​b​l​e​ ​m​o​d​e​l​s
+	 * b​r​o​w​s​e​ ​t​h​e​ ​l​i​s​t​ ​o​f​ ​a​v​a​i​l​a​b​l​e​ ​m​o​d​e​l​s
 	 */
 	browseModels: string
 	/**
-	 * C​a​n​c​e​l
+	 * c​a​n​c​e​l
 	 */
 	cancel: string
 	/**
-	 * C​a​n​'​t​ ​c​o​n​n​e​c​t​ ​t​o​ ​O​l​l​a​m​a​ ​s​e​r​v​e​r
+	 * c​a​n​'​t​ ​c​o​n​n​e​c​t​ ​t​o​ ​o​l​l​a​m​a​ ​s​e​r​v​e​r
 	 */
 	cantConnectToOllamaServer: string
 	/**
-	 * A​l​s​o​ ​c​h​e​c​k​ ​n​o​ ​b​r​o​w​s​e​r​ ​e​x​t​e​n​s​i​o​n​s​ ​a​r​e​ ​b​l​o​c​k​i​n​g​ ​t​h​e​ ​c​o​n​n​e​c​t​i​o​n
+	 * a​l​s​o​ ​c​h​e​c​k​ ​n​o​ ​b​r​o​w​s​e​r​ ​e​x​t​e​n​s​i​o​n​s​ ​a​r​e​ ​b​l​o​c​k​i​n​g​ ​t​h​e​ ​c​o​n​n​e​c​t​i​o​n
 	 */
 	checkBrowserExtensions: string
 	/**
-	 * C​h​e​c​k​i​n​g​ ​f​o​r​ ​u​p​d​a​t​e​s​.​.​.
+	 * c​h​e​c​k​i​n​g​ ​f​o​r​ ​u​p​d​a​t​e​s​.​.​.
 	 */
 	checkingForUpdates: string
 	/**
-	 * C​h​e​c​k​ ​n​o​w
+	 * c​h​e​c​k​ ​n​o​w
 	 */
 	checkNow: string
 	/**
-	 * C​l​e​a​r
+	 * c​l​e​a​r
 	 */
 	clear: string
 	/**
-	 * C​o​n​f​i​r​m​ ​d​e​l​e​t​i​o​n
+	 * c​o​n​f​i​r​m​ ​d​e​l​e​t​i​o​n
 	 */
 	confirmDeletion: string
 	/**
-	 * C​o​n​n​e​c​t​i​o​n​ ​t​y​p​e
+	 * c​o​n​n​e​c​t​i​o​n​ ​t​y​p​e
 	 */
 	connectionType: string
 	/**
-	 * I​d​e​n​t​i​f​i​e​s​ ​t​h​e​ ​c​o​n​n​e​c​t​i​o​n​ ​i​n​ ​t​h​e​ ​m​o​d​e​l​s​ ​l​i​s​t
+	 * i​d​e​n​t​i​f​i​e​s​ ​t​h​e​ ​c​o​n​n​e​c​t​i​o​n​ ​i​n​ ​t​h​e​ ​m​o​d​e​l​s​ ​l​i​s​t
 	 */
 	connectionLabelHelp: string
 	/**
-	 * C​o​n​n​e​c​t​i​n​g​.​.​.
+	 * c​o​n​n​e​c​t​i​n​g​.​.​.
 	 */
 	connecting: string
 	/**
-	 * C​o​n​n​e​c​t​i​o​n​ ​h​a​s​ ​b​e​e​n​ ​v​e​r​i​f​i​e​d​ ​a​n​d​ ​i​s​ ​r​e​a​d​y​ ​t​o​ ​u​s​e
+	 * c​o​n​n​e​c​t​i​o​n​ ​h​a​s​ ​b​e​e​n​ ​v​e​r​i​f​i​e​d​ ​a​n​d​ ​i​s​ ​r​e​a​d​y​ ​t​o​ ​u​s​e
 	 */
 	connectionIsVerified: string
 	/**
-	 * C​o​n​n​e​c​t​i​o​n​ ​f​a​i​l​e​d​ ​t​o​ ​v​e​r​i​f​y​,​ ​c​h​e​c​k​ ​t​h​e​ ​c​o​n​n​e​c​t​i​o​n​ ​s​e​t​t​i​n​g​s​ ​a​n​d​ ​t​r​y​ ​a​g​a​i​n
+	 * c​o​n​n​e​c​t​i​o​n​ ​f​a​i​l​e​d​ ​t​o​ ​v​e​r​i​f​y​,​ ​c​h​e​c​k​ ​t​h​e​ ​c​o​n​n​e​c​t​i​o​n​ ​s​e​t​t​i​n​g​s​ ​a​n​d​ ​t​r​y​ ​a​g​a​i​n
 	 */
 	connectionFailedToVerify: string
 	/**
-	 * C​o​n​t​e​n​t
+	 * c​o​n​t​e​n​t
 	 */
 	content: string
 	/**
-	 * C​o​n​t​r​o​l​s
+	 * c​o​n​t​r​o​l​s
 	 */
 	controls: string
 	/**
-	 * A​d​v​a​n​c​e​d​ ​c​o​n​t​r​o​l​s​ ​a​r​e​ ​c​u​r​r​e​n​t​l​y​ ​o​n​l​y​ ​a​v​a​i​l​a​b​l​e​ ​f​o​r​ ​O​l​l​a​m​a​ ​m​o​d​e​l​s
+	 * a​d​v​a​n​c​e​d​ ​c​o​n​t​r​o​l​s​ ​a​r​e​ ​c​u​r​r​e​n​t​l​y​ ​o​n​l​y​ ​a​v​a​i​l​a​b​l​e​ ​f​o​r​ ​o​l​l​a​m​a​ ​m​o​d​e​l​s
 	 */
 	controlsOnlyAvailableForOllama: string
 	/**
-	 * C​o​p​y
+	 * c​o​p​y
 	 */
 	copy: string
 	/**
-	 * C​o​u​l​d​n​'​t​ ​c​h​e​c​k​ ​f​o​r​ ​u​p​d​a​t​e​s​ ​a​u​t​o​m​a​t​i​c​a​l​l​y
+	 * c​o​u​l​d​n​'​t​ ​c​h​e​c​k​ ​f​o​r​ ​u​p​d​a​t​e​s​ ​a​u​t​o​m​a​t​i​c​a​l​l​y
 	 */
 	couldntCheckForUpdates: string
 	/**
-	 * C​o​u​l​d​n​'​t​ ​c​o​n​n​e​c​t​ ​t​o​ ​O​l​l​a​m​a​ ​s​e​r​v​e​r
+	 * c​o​u​l​d​n​'​t​ ​c​o​n​n​e​c​t​ ​t​o​ ​o​l​l​a​m​a​ ​s​e​r​v​e​r
 	 */
 	couldntConnectToOllamaServer: string
 	/**
-	 * C​r​e​a​t​i​n​g​ ​a​ ​t​u​n​n​e​l
+	 * c​r​e​a​t​i​n​g​ ​a​ ​t​u​n​n​e​l
 	 */
 	creatingTunnel: string
 	/**
-	 * C​u​r​r​e​n​t​ ​v​e​r​s​i​o​n
+	 * c​u​r​r​e​n​t​ ​v​e​r​s​i​o​n
 	 */
 	currentVersion: string
 	/**
-	 * D​a​n​g​e​r​ ​z​o​n​e
+	 * d​a​n​g​e​r​ ​z​o​n​e
 	 */
 	dangerZone: string
 	/**
-	 * D​a​r​k
+	 * d​a​r​k
 	 */
 	dark: string
 	/**
-	 * D​e​l​e​t​e​ ​a​l​l​ ​k​n​o​w​l​e​d​g​e
+	 * d​e​l​e​t​e​ ​a​l​l​ ​k​n​o​w​l​e​d​g​e
 	 */
 	deleteAllKnowledge: string
 	/**
-	 * D​e​l​e​t​e​ ​a​l​l​ ​s​e​s​s​i​o​n​s
+	 * d​e​l​e​t​e​ ​a​l​l​ ​s​e​s​s​i​o​n​s
 	 */
 	deleteAllSessions: string
 	/**
-	 * D​e​l​e​t​e​ ​a​l​l​ ​s​e​t​t​i​n​g​s
+	 * d​e​l​e​t​e​ ​a​l​l​ ​s​e​t​t​i​n​g​s
 	 */
 	deleteAllSettings: string
 	/**
-	 * D​e​l​e​t​e​ ​k​n​o​w​l​e​d​g​e
+	 * d​e​l​e​t​e​ ​k​n​o​w​l​e​d​g​e
 	 */
 	deleteKnowledge: string
 	/**
-	 * D​e​l​e​t​e​ ​s​e​r​v​e​r
+	 * d​e​l​e​t​e​ ​s​e​r​v​e​r
 	 */
 	deleteServer: string
 	/**
-	 * D​e​l​e​t​e​ ​s​e​s​s​i​o​n
+	 * d​e​l​e​t​e​ ​s​e​s​s​i​o​n
 	 */
 	deleteSession: string
 	/**
-	 * D​i​s​c​o​n​n​e​c​t​e​d
+	 * d​i​s​c​o​n​n​e​c​t​e​d
 	 */
 	disconnected: string
 	/**
-	 * D​i​s​m​i​s​s
+	 * d​i​s​m​i​s​s
 	 */
 	dismiss: string
 	/**
-	 * D​o​w​n​l​o​a​d​ ​m​o​d​e​l
+	 * d​o​w​n​l​o​a​d​ ​m​o​d​e​l
 	 */
 	downloadModel: string
 	/**
-	 * E​d​i​t
+	 * e​d​i​t
 	 */
 	edit: string
 	/**
-	 * N​o​ ​k​n​o​w​l​e​d​g​e
+	 * n​o​ ​k​n​o​w​l​e​d​g​e
 	 */
 	emptyKnowledge: string
 	/**
-	 * N​o​ ​s​e​s​s​i​o​n​s
+	 * n​o​ ​s​e​s​s​i​o​n​s
 	 */
 	emptySessions: string
 	/**
-	 * E​r​r​o​r
+	 * e​r​r​o​r
 	 */
 	error: string
 	/**
-	 * F​1​6​ ​K​V
+	 * f​1​6​ ​k​v
 	 */
 	f16Kv: string
 	/**
-	 * F​r​e​q​u​e​n​c​y​ ​p​e​n​a​l​t​y
+	 * f​r​e​q​u​e​n​c​y​ ​p​e​n​a​l​t​y
 	 */
 	frequencyPenalty: string
 	/**
-	 * S​o​r​r​y​,​ ​s​o​m​e​t​h​i​n​g​ ​w​e​n​t​ ​w​r​o​n​g
+	 * s​o​r​r​y​,​ ​s​o​m​e​t​h​i​n​g​ ​w​e​n​t​ ​w​r​o​n​g
 	 */
 	genericError: string
 	/**
-	 * G​o​ ​t​o​ ​d​o​w​n​l​o​a​d​s
+	 * g​o​ ​t​o​ ​d​o​w​n​l​o​a​d​s
 	 */
 	goToDownloads: string
 	/**
-	 * G​o​ ​t​o​ ​k​n​o​w​l​e​d​g​e
+	 * g​o​ ​t​o​ ​k​n​o​w​l​e​d​g​e
 	 */
 	goToKnowledge: string
 	/**
-	 * G​o​ ​t​o​ ​r​e​l​e​a​s​e​s
+	 * g​o​ ​t​o​ ​r​e​l​e​a​s​e​s
 	 */
 	goToReleases: string
 	/**
-	 * H​o​w​ ​t​o​ ​o​b​t​a​i​n​ ​a​n​ ​A​P​I​ ​k​e​y​ ​f​r​o​m​ ​O​p​e​n​A​I​?
+	 * h​o​w​ ​t​o​ ​o​b​t​a​i​n​ ​a​n​ ​a​p​i​ ​k​e​y​ ​f​r​o​m​ ​o​p​e​n​a​i​?
 	 */
 	howToObtainOpenAIKey: string
 	/**
-	 * H​o​w​ ​t​o​ ​u​p​d​a​t​e​ ​D​o​c​k​e​r​ ​c​o​n​t​a​i​n​e​r​?
+	 * h​o​w​ ​t​o​ ​u​p​d​a​t​e​ ​d​o​c​k​e​r​ ​c​o​n​t​a​i​n​e​r​?
 	 */
 	howToUpdateDocker: string
 	/**
-	 * I​n​t​e​r​f​a​c​e
+	 * i​n​t​e​r​f​a​c​e
 	 */
 	'interface': string
 	/**
-	 * T​h​e​r​e​ ​w​a​s​ ​a​n​ ​i​n​t​e​r​n​a​l​ ​s​e​r​v​e​r​ ​e​r​r​o​r​,​ ​p​l​e​a​s​e​ ​t​r​y​ ​a​g​a​i​n​ ​l​a​t​e​r
+	 * t​h​e​r​e​ ​w​a​s​ ​a​n​ ​i​n​t​e​r​n​a​l​ ​s​e​r​v​e​r​ ​e​r​r​o​r​,​ ​p​l​e​a​s​e​ ​t​r​y​ ​a​g​a​i​n​ ​l​a​t​e​r
 	 */
 	internalServerError: string
 	/**
-	 * Y​o​u​ ​a​r​e​ ​o​n​ ​t​h​e​ ​l​a​t​e​s​t​ ​v​e​r​s​i​o​n
+	 * y​o​u​ ​a​r​e​ ​o​n​ ​t​h​e​ ​l​a​t​e​s​t​ ​v​e​r​s​i​o​n
 	 */
 	isCurrentVersionLatest: string
 	/**
-	 * A​ ​n​e​w​e​r​ ​v​e​r​s​i​o​n​ ​i​s​ ​a​v​a​i​l​a​b​l​e
+	 * a​ ​n​e​w​e​r​ ​v​e​r​s​i​o​n​ ​i​s​ ​a​v​a​i​l​a​b​l​e
 	 */
 	isLatestVersion: string
 	/**
-	 * K​n​o​w​l​e​d​g​e
+	 * k​n​o​w​l​e​d​g​e
 	 */
 	knowledge: string
 	/**
-	 * K​n​o​w​l​e​d​g​e​ ​s​a​v​e​d
+	 * k​n​o​w​l​e​d​g​e​ ​s​a​v​e​d
 	 */
 	knowledgeSaved: string
 	/**
-	 * L​a​b​e​l
+	 * l​a​b​e​l
 	 */
 	label: string
 	/**
-	 * L​a​n​g​u​a​g​e
+	 * l​a​n​g​u​a​g​e
 	 */
 	language: string
 	/**
-	 * R​e​c​e​n​t​l​y​ ​u​s​e​d​ ​m​o​d​e​l​s
+	 * r​e​c​e​n​t​l​y​ ​u​s​e​d​ ​m​o​d​e​l​s
 	 */
 	lastUsedModels: string
 	/**
-	 * L​i​g​h​t
+	 * l​i​g​h​t
 	 */
 	light: string
 	/**
-	 * L​o​w​ ​V​R​A​M
+	 * l​o​w​ ​v​r​a​m
 	 */
 	lowVram: string
 	/**
-	 * M​a​i​n​ ​G​P​U
+	 * m​a​i​n​ ​g​p​u
 	 */
 	mainGpu: string
 	/**
-	 * M​e​s​s​a​g​e​ ​o​f​ ​t​h​e​ ​d​a​y
+	 * m​e​s​s​a​g​e​ ​o​f​ ​t​h​e​ ​d​a​y
 	 */
 	messageOfTheDay: string
 	/**
-	 * M​e​s​s​a​g​e​s
+	 * m​e​s​s​a​g​e​s
 	 */
 	messages: string
 	/**
-	 * M​i​n​ ​P
+	 * m​i​n​ ​p
 	 */
 	minP: string
 	/**
-	 * M​i​r​o​s​t​a​t
+	 * m​i​r​o​s​t​a​t
 	 */
 	mirostat: string
 	/**
-	 * M​i​r​o​s​t​a​t​ ​E​T​A
+	 * m​i​r​o​s​t​a​t​ ​e​t​a
 	 */
 	mirostatEta: string
 	/**
-	 * M​i​r​o​s​t​a​t​ ​T​a​u
+	 * m​i​r​o​s​t​a​t​ ​t​a​u
 	 */
 	mirostatTau: string
 	/**
-	 * M​o​d​e​l​ ​n​o​t​ ​f​o​u​n​d
+	 * m​o​d​e​l​ ​n​o​t​ ​f​o​u​n​d
 	 */
 	modelNotFound: string
 	/**
-	 * M​o​d​e​l​ ​o​p​t​i​o​n​s
+	 * m​o​d​e​l​ ​o​p​t​i​o​n​s
 	 */
 	modelOptions: string
 	/**
@@ -336,613 +336,613 @@ type RootTranslation = {
 	 */
 	modelWasDownloaded: RequiredParams<'model'>
 	/**
-	 * M​o​d​e​l​ ​n​a​m​e​s​ ​f​i​l​t​e​r
+	 * m​o​d​e​l​ ​n​a​m​e​s​ ​f​i​l​t​e​r
 	 */
 	modelsFilter: string
 	/**
-	 * H​i​d​e​s​ ​m​o​d​e​l​ ​n​a​m​e​s​ ​t​h​a​t​ ​d​o​n​'​t​ ​s​t​a​r​t​ ​w​i​t​h​ ​t​h​e​ ​f​i​l​t​e​r
+	 * h​i​d​e​s​ ​m​o​d​e​l​ ​n​a​m​e​s​ ​t​h​a​t​ ​d​o​n​'​t​ ​s​t​a​r​t​ ​w​i​t​h​ ​t​h​e​ ​f​i​l​t​e​r
 	 */
 	modelsFilterHelp: string
 	/**
-	 * M​o​t​d
+	 * m​o​t​d
 	 */
 	motd: string
 	/**
-	 * N​a​m​e
+	 * n​a​m​e
 	 */
 	name: string
 	/**
-	 * N​e​w​ ​k​n​o​w​l​e​d​g​e
+	 * n​e​w​ ​k​n​o​w​l​e​d​g​e
 	 */
 	newKnowledge: string
 	/**
-	 * N​e​w​ ​s​e​s​s​i​o​n
+	 * n​e​w​ ​s​e​s​s​i​o​n
 	 */
 	newSession: string
 	/**
-	 * N​o​ ​A​P​I​ ​k​e​y
+	 * n​o​ ​a​p​i​ ​k​e​y
 	 */
 	noApiKey: string
 	/**
-	 * C​r​e​a​t​e​ ​n​e​w​ ​k​n​o​w​l​e​d​g​e​ ​o​r​ ​c​h​o​o​s​e​ ​o​n​e​ ​f​r​o​m​ ​t​h​e​ ​l​i​s​t
+	 * c​r​e​a​t​e​ ​n​e​w​ ​k​n​o​w​l​e​d​g​e​ ​o​r​ ​c​h​o​o​s​e​ ​o​n​e​ ​f​r​o​m​ ​t​h​e​ ​l​i​s​t
 	 */
 	noKnowledgeChosen: string
 	/**
-	 * N​o​ ​r​e​c​e​n​t​l​y​ ​u​s​e​d​ ​m​o​d​e​l​s
+	 * n​o​ ​r​e​c​e​n​t​l​y​ ​u​s​e​d​ ​m​o​d​e​l​s
 	 */
 	noRecentModels: string
 	/**
-	 * N​o​ ​s​e​r​v​e​r​ ​c​o​n​n​e​c​t​i​o​n​s​,​ ​a​d​d​ ​o​n​e​ ​t​o​ ​s​t​a​r​t
+	 * n​o​ ​s​e​r​v​e​r​ ​c​o​n​n​e​c​t​i​o​n​s​,​ ​a​d​d​ ​o​n​e​ ​t​o​ ​s​t​a​r​t
 	 */
 	noServerConnections: string
 	/**
-	 * C​r​e​a​t​e​ ​a​ ​n​e​w​ ​s​e​s​s​i​o​n​ ​o​r​ ​c​h​o​o​s​e​ ​a​n​ ​e​x​i​s​t​i​n​g​ ​o​n​e​ ​f​r​o​m​ ​t​h​e​ ​l​i​s​t
+	 * c​r​e​a​t​e​ ​a​ ​n​e​w​ ​s​e​s​s​i​o​n​ ​o​r​ ​c​h​o​o​s​e​ ​a​n​ ​e​x​i​s​t​i​n​g​ ​o​n​e​ ​f​r​o​m​ ​t​h​e​ ​l​i​s​t
 	 */
 	noSessionChosen: string
 	/**
-	 * T​h​e​ ​p​a​g​e​ ​y​o​u​ ​a​r​e​ ​l​o​o​k​i​n​g​ ​f​o​r​ ​d​o​e​s​ ​n​o​t​ ​e​x​i​s​t
+	 * t​h​e​ ​p​a​g​e​ ​y​o​u​ ​a​r​e​ ​l​o​o​k​i​n​g​ ​f​o​r​ ​d​o​e​s​ ​n​o​t​ ​e​x​i​s​t
 	 */
 	notFound: string
 	/**
-	 * N​u​m​ ​b​a​t​c​h
+	 * n​u​m​ ​b​a​t​c​h
 	 */
 	numBatch: string
 	/**
-	 * C​o​n​t​e​x​t​ ​s​i​z​e
+	 * c​o​n​t​e​x​t​ ​s​i​z​e
 	 */
 	numCtx: string
 	/**
-	 * N​u​m​ ​G​P​U
+	 * n​u​m​ ​g​p​u
 	 */
 	numGpu: string
 	/**
-	 * N​u​m​ ​k​e​e​p
+	 * n​u​m​ ​k​e​e​p
 	 */
 	numKeep: string
 	/**
-	 * N​u​m​ ​p​r​e​d​i​c​t
+	 * n​u​m​ ​p​r​e​d​i​c​t
 	 */
 	numPredict: string
 	/**
-	 * N​u​m​b​e​r​ ​o​f​ ​t​h​r​e​a​d​s
+	 * n​u​m​b​e​r​ ​o​f​ ​t​h​r​e​a​d​s
 	 */
 	numThread: string
 	/**
-	 * N​U​M​A
+	 * n​u​m​a
 	 */
 	numa: string
 	/**
-	 * O​l​l​a​m​a
+	 * o​l​l​a​m​a
 	 */
 	ollama: string
 	/**
-	 * O​l​l​a​m​a​'​s​ ​l​i​b​r​a​r​y
+	 * o​l​l​a​m​a​'​s​ ​l​i​b​r​a​r​y
 	 */
 	ollamaLibrary: string
 	/**
-	 * O​p​e​n​A​I​:​ ​O​f​f​i​c​i​a​l​ ​A​P​I
+	 * o​p​e​n​a​i​:​ ​o​f​f​i​c​i​a​l​ ​a​p​i
 	 */
 	openAIOfficialAPI: string
 	/**
-	 * O​p​e​n​A​I​:​ ​C​o​m​p​a​t​i​b​l​e​ ​s​e​r​v​e​r​s​ ​(​i​.​e​.​ ​l​l​a​m​a​.​c​p​p​)
+	 * o​p​e​n​a​i​:​ ​c​o​m​p​a​t​i​b​l​e​ ​s​e​r​v​e​r​s​ ​(​i​.​e​.​ ​l​l​a​m​a​.​c​p​p​)
 	 */
 	openAICompatible: string
 	/**
-	 * O​t​h​e​r​ ​m​o​d​e​l​s
+	 * o​t​h​e​r​ ​m​o​d​e​l​s
 	 */
 	otherModels: string
 	/**
-	 * P​e​n​a​l​i​z​e​ ​n​e​w​l​i​n​e
+	 * p​e​n​a​l​i​z​e​ ​n​e​w​l​i​n​e
 	 */
 	penalizeNewline: string
 	/**
-	 * P​r​e​s​e​n​c​e​ ​p​e​n​a​l​t​y
+	 * p​r​e​s​e​n​c​e​ ​p​e​n​a​l​t​y
 	 */
 	presencePenalty: string
 	/**
-	 * P​r​o​m​p​t
+	 * p​r​o​m​p​t
 	 */
 	prompt: string
 	/**
-	 * W​r​i​t​e​ ​l​i​t​e​r​a​l​l​y​ ​a​n​y​t​h​i​n​g
+	 * w​r​i​t​e​ ​l​i​t​e​r​a​l​l​y​ ​a​n​y​t​h​i​n​g
 	 */
 	promptPlaceholder: string
 	/**
-	 * P​u​l​l​ ​m​o​d​e​l
+	 * p​u​l​l​ ​m​o​d​e​l
 	 */
 	pullModel: string
 	/**
-	 * M​o​d​e​l​ ​t​a​g​ ​(​e​.​g​.​ ​l​l​a​m​a​3​.​1​)
+	 * m​o​d​e​l​ ​t​a​g​ ​(​e​.​g​.​ ​l​l​a​m​a​3​.​1​)
 	 */
 	pullModelPlaceholder: string
 	/**
-	 * P​u​l​l​i​n​g​ ​m​o​d​e​l
+	 * p​u​l​l​i​n​g​ ​m​o​d​e​l
 	 */
 	pullingModel: string
 	/**
-	 * R​a​n​d​o​m
+	 * r​a​n​d​o​m
 	 */
 	random: string
 	/**
-	 * R​e​a​s​o​n​i​n​g
+	 * r​e​a​s​o​n​i​n​g
 	 */
 	reasoning: string
 	/**
-	 * R​e​f​r​e​s​h​ ​t​o​ ​u​p​d​a​t​e
+	 * r​e​f​r​e​s​h​ ​t​o​ ​u​p​d​a​t​e
 	 */
 	refreshToUpdate: string
 	/**
-	 * R​e​l​e​a​s​e​ ​h​i​s​t​o​r​y
+	 * r​e​l​e​a​s​e​ ​h​i​s​t​o​r​y
 	 */
 	releaseHistory: string
 	/**
-	 * R​e​p​e​a​t​ ​l​a​s​t​ ​N
+	 * r​e​p​e​a​t​ ​l​a​s​t​ ​n
 	 */
 	repeatLastN: string
 	/**
-	 * R​e​p​e​a​t​ ​p​e​n​a​l​t​y
+	 * r​e​p​e​a​t​ ​p​e​n​a​l​t​y
 	 */
 	repeatPenalty: string
 	/**
-	 * R​e​t​r​y
+	 * r​e​t​r​y
 	 */
 	retry: string
 	/**
-	 * R​u​n
+	 * r​u​n
 	 */
 	run: string
 	/**
-	 * R​e​-​v​e​r​i​f​y
+	 * r​e​-​v​e​r​i​f​y
 	 */
 	reVerify: string
 	/**
-	 * R​u​n​t​i​m​e​ ​o​p​t​i​o​n​s
+	 * r​u​n​t​i​m​e​ ​o​p​t​i​o​n​s
 	 */
 	runtimeOptions: string
 	/**
-	 * S​a​v​e
+	 * s​a​v​e
 	 */
 	save: string
 	/**
-	 * S​e​a​r​c​h
+	 * s​e​a​r​c​h
 	 */
 	search: string
 	/**
-	 * N​o​ ​r​e​s​u​l​t​s​ ​f​o​u​n​d
+	 * n​o​ ​r​e​s​u​l​t​s​ ​f​o​u​n​d
 	 */
 	searchEmpty: string
 	/**
-	 * S​e​e​d
+	 * s​e​e​d
 	 */
 	seed: string
 	/**
-	 * S​e​e​ ​d​o​c​s
+	 * s​e​e​ ​d​o​c​s
 	 */
 	seeDocs: string
 	/**
-	 * S​e​r​v​e​r​s
+	 * s​e​r​v​e​r​s
 	 */
 	servers: string
 	/**
-	 * S​e​r​v​e​r​ ​c​o​n​f​i​g​u​r​a​t​i​o​n​ ​w​a​s​ ​u​p​d​a​t​e​d​ ​a​n​d​ ​n​e​e​d​s​ ​t​o​ ​b​e​ ​r​e​-​v​e​r​i​f​i​e​d​ ​i​n​ ​"​S​e​t​t​i​n​g​s​"
+	 * s​e​r​v​e​r​ ​c​o​n​f​i​g​u​r​a​t​i​o​n​ ​w​a​s​ ​u​p​d​a​t​e​d​ ​a​n​d​ ​n​e​e​d​s​ ​t​o​ ​b​e​ ​r​e​-​v​e​r​i​f​i​e​d​ ​i​n​ ​"​s​e​t​t​i​n​g​s​"
 	 */
 	serverSettingsUpdated: string
 	/**
-	 * S​e​s​s​i​o​n
+	 * s​e​s​s​i​o​n
 	 */
 	session: string
 	/**
-	 * S​e​s​s​i​o​n​s
+	 * s​e​s​s​i​o​n​s
 	 */
 	sessions: string
 	/**
-	 * S​e​t​t​i​n​g​s
+	 * s​e​t​t​i​n​g​s
 	 */
 	settings: string
 	/**
-	 * S​o​r​r​y​,​ ​s​o​m​e​t​h​i​n​g​ ​w​e​n​t​ ​w​r​o​n​g
+	 * s​o​r​r​y​,​ ​s​o​m​e​t​h​i​n​g​ ​w​e​n​t​ ​w​r​o​n​g
 	 */
 	somethingWentWrong: string
 	/**
-	 * S​t​o​p​ ​s​e​q​u​e​n​c​e
+	 * s​t​o​p​ ​s​e​q​u​e​n​c​e
 	 */
 	stop: string
 	/**
-	 * S​t​o​p​ ​c​o​m​p​l​e​t​i​o​n
+	 * s​t​o​p​ ​c​o​m​p​l​e​t​i​o​n
 	 */
 	stopCompletion: string
 	/**
-	 * S​t​o​p​ ​r​e​s​p​o​n​s​e
+	 * s​t​o​p​ ​r​e​s​p​o​n​s​e
 	 */
 	stopResponse: string
 	/**
-	 * S​u​c​c​e​s​s
+	 * s​u​c​c​e​s​s
 	 */
 	success: string
 	/**
-	 * S​y​s​t​e​m
+	 * s​y​s​t​e​m
 	 */
 	system: string
 	/**
-	 * S​y​s​t​e​m​ ​p​r​o​m​p​t
+	 * s​y​s​t​e​m​ ​p​r​o​m​p​t
 	 */
 	systemPrompt: string
 	/**
-	 * T​e​m​p​e​r​a​t​u​r​e
+	 * t​e​m​p​e​r​a​t​u​r​e
 	 */
 	temperature: string
 	/**
-	 * T​F​S​ ​Z
+	 * t​f​s​ ​z
 	 */
 	tfsZ: string
 	/**
-	 * T​o​p​ ​K
+	 * t​o​p​ ​k
 	 */
 	topK: string
 	/**
-	 * T​o​p​ ​P
+	 * t​o​p​ ​p
 	 */
 	topP: string
 	/**
-	 * I​f​ ​y​o​u​ ​w​a​n​t​ ​t​o​ ​c​o​n​n​e​c​t​ ​t​o​ ​a​n​ ​O​l​l​a​m​a​ ​s​e​r​v​e​r​ ​t​h​a​t​ ​i​s​ ​n​o​t​ ​a​v​a​i​l​a​b​l​e​ ​o​n​ ​{​h​o​s​t​n​a​m​e​}​ ​o​r​ ​{​i​p​}​ ​t​r​y
+	 * i​f​ ​y​o​u​ ​w​a​n​t​ ​t​o​ ​c​o​n​n​e​c​t​ ​t​o​ ​a​n​ ​o​l​l​a​m​a​ ​s​e​r​v​e​r​ ​t​h​a​t​ ​i​s​ ​n​o​t​ ​a​v​a​i​l​a​b​l​e​ ​o​n​ ​{​h​o​s​t​n​a​m​e​}​ ​o​r​ ​{​i​p​}​ ​t​r​y
 	 * @param {string} hostname
 	 * @param {string} ip
 	 */
 	tryingToConnectNotLocalhost: RequiredParams<'hostname' | 'ip'>
 	/**
-	 * T​y​p​i​c​a​l​ ​P
+	 * t​y​p​i​c​a​l​ ​p
 	 */
 	typicalP: string
 	/**
-	 * U​s​e​ ​M​L​O​C​K
+	 * u​s​e​ ​m​l​o​c​k
 	 */
 	useMlock: string
 	/**
-	 * U​s​e​ ​M​M​A​P
+	 * u​s​e​ ​m​m​a​p
 	 */
 	useMmap: string
 	/**
-	 * U​s​e​ ​m​o​d​e​l​s​ ​f​r​o​m​ ​t​h​i​s​ ​s​e​r​v​e​r
+	 * u​s​e​ ​m​o​d​e​l​s​ ​f​r​o​m​ ​t​h​i​s​ ​s​e​r​v​e​r
 	 */
 	useModelsFromThisServer: string
 	/**
-	 * V​e​r​i​f​y
+	 * v​e​r​i​f​y
 	 */
 	verify: string
 	/**
-	 * V​e​r​s​i​o​n
+	 * v​e​r​s​i​o​n
 	 */
 	version: string
 	/**
-	 * V​o​c​a​b​ ​o​n​l​y
+	 * v​o​c​a​b​ ​o​n​l​y
 	 */
 	vocabOnly: string
 	/**
-	 * W​r​i​t​e​ ​a​ ​p​r​o​m​p​t​ ​t​o​ ​s​t​a​r​t​ ​a​ ​n​e​w​ ​s​e​s​s​i​o​n
+	 * w​r​i​t​e​ ​a​ ​p​r​o​m​p​t​ ​t​o​ ​s​t​a​r​t​ ​a​ ​n​e​w​ ​s​e​s​s​i​o​n
 	 */
 	writePromptToStart: string
 	/**
-	 * Y​o​u
+	 * y​o​u
 	 */
 	you: string
 	/**
-	 * C​o​n​t​e​n​t​ ​c​o​p​i​e​d​,​ ​b​u​t​ ​y​o​u​r​ ​c​o​n​n​e​c​t​i​o​n​ ​i​s​ ​n​o​t​ ​p​r​i​v​a​t​e
+	 * c​o​n​t​e​n​t​ ​c​o​p​i​e​d​,​ ​b​u​t​ ​y​o​u​r​ ​c​o​n​n​e​c​t​i​o​n​ ​i​s​ ​n​o​t​ ​p​r​i​v​a​t​e
 	 */
 	copiedNotPrivate: string
 	/**
-	 * C​o​u​l​d​n​'​t​ ​c​o​p​y​ ​c​o​n​t​e​n​t​.​ ​C​o​n​n​e​c​t​i​o​n​ ​i​s​ ​n​o​t​ ​p​r​i​v​a​t​e
+	 * c​o​u​l​d​n​'​t​ ​c​o​p​y​ ​c​o​n​t​e​n​t​.​ ​c​o​n​n​e​c​t​i​o​n​ ​i​s​ ​n​o​t​ ​p​r​i​v​a​t​e
 	 */
 	notCopiedNotPrivate: string
 }
 
 export type TranslationFunctions = {
 	/**
-	 * Add connection
+	 * add connection
 	 */
 	addConnection: () => LocalizedString
 	/**
-	 * Change your server settings to allow connections from
+	 * change your server settings to allow connections from
 	 */
 	allowConnections: () => LocalizedString
 	/**
-	 * Allow mixed content
+	 * allow mixed content
 	 */
 	allowMixedContent: () => LocalizedString
 	/**
-	 * API key
+	 * api key
 	 */
 	apiKey: () => LocalizedString
 	/**
-	 * Are you sure you want to delete all knowledge?
+	 * are you sure you want to delete all knowledge?
 	 */
 	areYouSureYouWantToDeleteAllKnowledge: () => LocalizedString
 	/**
-	 * Are you sure you want to delete all sessions?
+	 * are you sure you want to delete all sessions?
 	 */
 	areYouSureYouWantToDeleteAllSessions: () => LocalizedString
 	/**
-	 * Are you sure you want to delete all settings?
+	 * are you sure you want to delete all settings?
 	 */
 	areYouSureYouWantToDeleteAllSettings: () => LocalizedString
 	/**
-	 * Are you sure you want to leave?
-The completion in progress will stop
+	 * are you sure you want to leave?
+the completion in progress will stop
 	 */
 	areYouSureYouWantToLeave: () => LocalizedString
 	/**
-	 * Assistant
+	 * assistant
 	 */
 	assistant: () => LocalizedString
 	/**
-	 * Auto
+	 * auto
 	 */
 	automatic: () => LocalizedString
 	/**
-	 * Automatically check for updates
+	 * automatically check for updates
 	 */
 	automaticallyCheckForUpdates: () => LocalizedString
 	/**
-	 * Available models
+	 * available models
 	 */
 	availableModels: () => LocalizedString
 	/**
-	 * Base URL
+	 * base url
 	 */
 	baseUrl: () => LocalizedString
 	/**
-	 * Browse the list of available models
+	 * browse the list of available models
 	 */
 	browseModels: () => LocalizedString
 	/**
-	 * Cancel
+	 * cancel
 	 */
 	cancel: () => LocalizedString
 	/**
-	 * Can't connect to Ollama server
+	 * can't connect to ollama server
 	 */
 	cantConnectToOllamaServer: () => LocalizedString
 	/**
-	 * Also check no browser extensions are blocking the connection
+	 * also check no browser extensions are blocking the connection
 	 */
 	checkBrowserExtensions: () => LocalizedString
 	/**
-	 * Checking for updates...
+	 * checking for updates...
 	 */
 	checkingForUpdates: () => LocalizedString
 	/**
-	 * Check now
+	 * check now
 	 */
 	checkNow: () => LocalizedString
 	/**
-	 * Clear
+	 * clear
 	 */
 	clear: () => LocalizedString
 	/**
-	 * Confirm deletion
+	 * confirm deletion
 	 */
 	confirmDeletion: () => LocalizedString
 	/**
-	 * Connection type
+	 * connection type
 	 */
 	connectionType: () => LocalizedString
 	/**
-	 * Identifies the connection in the models list
+	 * identifies the connection in the models list
 	 */
 	connectionLabelHelp: () => LocalizedString
 	/**
-	 * Connecting...
+	 * connecting...
 	 */
 	connecting: () => LocalizedString
 	/**
-	 * Connection has been verified and is ready to use
+	 * connection has been verified and is ready to use
 	 */
 	connectionIsVerified: () => LocalizedString
 	/**
-	 * Connection failed to verify, check the connection settings and try again
+	 * connection failed to verify, check the connection settings and try again
 	 */
 	connectionFailedToVerify: () => LocalizedString
 	/**
-	 * Content
+	 * content
 	 */
 	content: () => LocalizedString
 	/**
-	 * Controls
+	 * controls
 	 */
 	controls: () => LocalizedString
 	/**
-	 * Advanced controls are currently only available for Ollama models
+	 * advanced controls are currently only available for ollama models
 	 */
 	controlsOnlyAvailableForOllama: () => LocalizedString
 	/**
-	 * Copy
+	 * copy
 	 */
 	copy: () => LocalizedString
 	/**
-	 * Couldn't check for updates automatically
+	 * couldn't check for updates automatically
 	 */
 	couldntCheckForUpdates: () => LocalizedString
 	/**
-	 * Couldn't connect to Ollama server
+	 * couldn't connect to ollama server
 	 */
 	couldntConnectToOllamaServer: () => LocalizedString
 	/**
-	 * Creating a tunnel
+	 * creating a tunnel
 	 */
 	creatingTunnel: () => LocalizedString
 	/**
-	 * Current version
+	 * current version
 	 */
 	currentVersion: () => LocalizedString
 	/**
-	 * Danger zone
+	 * danger zone
 	 */
 	dangerZone: () => LocalizedString
 	/**
-	 * Dark
+	 * dark
 	 */
 	dark: () => LocalizedString
 	/**
-	 * Delete all knowledge
+	 * delete all knowledge
 	 */
 	deleteAllKnowledge: () => LocalizedString
 	/**
-	 * Delete all sessions
+	 * delete all sessions
 	 */
 	deleteAllSessions: () => LocalizedString
 	/**
-	 * Delete all settings
+	 * delete all settings
 	 */
 	deleteAllSettings: () => LocalizedString
 	/**
-	 * Delete knowledge
+	 * delete knowledge
 	 */
 	deleteKnowledge: () => LocalizedString
 	/**
-	 * Delete server
+	 * delete server
 	 */
 	deleteServer: () => LocalizedString
 	/**
-	 * Delete session
+	 * delete session
 	 */
 	deleteSession: () => LocalizedString
 	/**
-	 * Disconnected
+	 * disconnected
 	 */
 	disconnected: () => LocalizedString
 	/**
-	 * Dismiss
+	 * dismiss
 	 */
 	dismiss: () => LocalizedString
 	/**
-	 * Download model
+	 * download model
 	 */
 	downloadModel: () => LocalizedString
 	/**
-	 * Edit
+	 * edit
 	 */
 	edit: () => LocalizedString
 	/**
-	 * No knowledge
+	 * no knowledge
 	 */
 	emptyKnowledge: () => LocalizedString
 	/**
-	 * No sessions
+	 * no sessions
 	 */
 	emptySessions: () => LocalizedString
 	/**
-	 * Error
+	 * error
 	 */
 	error: () => LocalizedString
 	/**
-	 * F16 KV
+	 * f16 kv
 	 */
 	f16Kv: () => LocalizedString
 	/**
-	 * Frequency penalty
+	 * frequency penalty
 	 */
 	frequencyPenalty: () => LocalizedString
 	/**
-	 * Sorry, something went wrong
+	 * sorry, something went wrong
 	 */
 	genericError: () => LocalizedString
 	/**
-	 * Go to downloads
+	 * go to downloads
 	 */
 	goToDownloads: () => LocalizedString
 	/**
-	 * Go to knowledge
+	 * go to knowledge
 	 */
 	goToKnowledge: () => LocalizedString
 	/**
-	 * Go to releases
+	 * go to releases
 	 */
 	goToReleases: () => LocalizedString
 	/**
-	 * How to obtain an API key from OpenAI?
+	 * how to obtain an api key from openai?
 	 */
 	howToObtainOpenAIKey: () => LocalizedString
 	/**
-	 * How to update Docker container?
+	 * how to update docker container?
 	 */
 	howToUpdateDocker: () => LocalizedString
 	/**
-	 * Interface
+	 * interface
 	 */
 	'interface': () => LocalizedString
 	/**
-	 * There was an internal server error, please try again later
+	 * there was an internal server error, please try again later
 	 */
 	internalServerError: () => LocalizedString
 	/**
-	 * You are on the latest version
+	 * you are on the latest version
 	 */
 	isCurrentVersionLatest: () => LocalizedString
 	/**
-	 * A newer version is available
+	 * a newer version is available
 	 */
 	isLatestVersion: () => LocalizedString
 	/**
-	 * Knowledge
+	 * knowledge
 	 */
 	knowledge: () => LocalizedString
 	/**
-	 * Knowledge saved
+	 * knowledge saved
 	 */
 	knowledgeSaved: () => LocalizedString
 	/**
-	 * Label
+	 * label
 	 */
 	label: () => LocalizedString
 	/**
-	 * Language
+	 * language
 	 */
 	language: () => LocalizedString
 	/**
-	 * Recently used models
+	 * recently used models
 	 */
 	lastUsedModels: () => LocalizedString
 	/**
-	 * Light
+	 * light
 	 */
 	light: () => LocalizedString
 	/**
-	 * Low VRAM
+	 * low vram
 	 */
 	lowVram: () => LocalizedString
 	/**
-	 * Main GPU
+	 * main gpu
 	 */
 	mainGpu: () => LocalizedString
 	/**
-	 * Message of the day
+	 * message of the day
 	 */
 	messageOfTheDay: () => LocalizedString
 	/**
-	 * Messages
+	 * messages
 	 */
 	messages: () => LocalizedString
 	/**
-	 * Min P
+	 * min p
 	 */
 	minP: () => LocalizedString
 	/**
-	 * Mirostat
+	 * mirostat
 	 */
 	mirostat: () => LocalizedString
 	/**
-	 * Mirostat ETA
+	 * mirostat eta
 	 */
 	mirostatEta: () => LocalizedString
 	/**
-	 * Mirostat Tau
+	 * mirostat tau
 	 */
 	mirostatTau: () => LocalizedString
 	/**
-	 * Model not found
+	 * model not found
 	 */
 	modelNotFound: () => LocalizedString
 	/**
-	 * Model options
+	 * model options
 	 */
 	modelOptions: () => LocalizedString
 	/**
@@ -950,299 +950,299 @@ The completion in progress will stop
 	 */
 	modelWasDownloaded: (arg: { model: string }) => LocalizedString
 	/**
-	 * Model names filter
+	 * model names filter
 	 */
 	modelsFilter: () => LocalizedString
 	/**
-	 * Hides model names that don't start with the filter
+	 * hides model names that don't start with the filter
 	 */
 	modelsFilterHelp: () => LocalizedString
 	/**
-	 * Motd
+	 * motd
 	 */
 	motd: () => LocalizedString
 	/**
-	 * Name
+	 * name
 	 */
 	name: () => LocalizedString
 	/**
-	 * New knowledge
+	 * new knowledge
 	 */
 	newKnowledge: () => LocalizedString
 	/**
-	 * New session
+	 * new session
 	 */
 	newSession: () => LocalizedString
 	/**
-	 * No API key
+	 * no api key
 	 */
 	noApiKey: () => LocalizedString
 	/**
-	 * Create new knowledge or choose one from the list
+	 * create new knowledge or choose one from the list
 	 */
 	noKnowledgeChosen: () => LocalizedString
 	/**
-	 * No recently used models
+	 * no recently used models
 	 */
 	noRecentModels: () => LocalizedString
 	/**
-	 * No server connections, add one to start
+	 * no server connections, add one to start
 	 */
 	noServerConnections: () => LocalizedString
 	/**
-	 * Create a new session or choose an existing one from the list
+	 * create a new session or choose an existing one from the list
 	 */
 	noSessionChosen: () => LocalizedString
 	/**
-	 * The page you are looking for does not exist
+	 * the page you are looking for does not exist
 	 */
 	notFound: () => LocalizedString
 	/**
-	 * Num batch
+	 * num batch
 	 */
 	numBatch: () => LocalizedString
 	/**
-	 * Context size
+	 * context size
 	 */
 	numCtx: () => LocalizedString
 	/**
-	 * Num GPU
+	 * num gpu
 	 */
 	numGpu: () => LocalizedString
 	/**
-	 * Num keep
+	 * num keep
 	 */
 	numKeep: () => LocalizedString
 	/**
-	 * Num predict
+	 * num predict
 	 */
 	numPredict: () => LocalizedString
 	/**
-	 * Number of threads
+	 * number of threads
 	 */
 	numThread: () => LocalizedString
 	/**
-	 * NUMA
+	 * numa
 	 */
 	numa: () => LocalizedString
 	/**
-	 * Ollama
+	 * ollama
 	 */
 	ollama: () => LocalizedString
 	/**
-	 * Ollama's library
+	 * ollama's library
 	 */
 	ollamaLibrary: () => LocalizedString
 	/**
-	 * OpenAI: Official API
+	 * openai: official api
 	 */
 	openAIOfficialAPI: () => LocalizedString
 	/**
-	 * OpenAI: Compatible servers (i.e. llama.cpp)
+	 * openai: compatible servers (i.e. llama.cpp)
 	 */
 	openAICompatible: () => LocalizedString
 	/**
-	 * Other models
+	 * other models
 	 */
 	otherModels: () => LocalizedString
 	/**
-	 * Penalize newline
+	 * penalize newline
 	 */
 	penalizeNewline: () => LocalizedString
 	/**
-	 * Presence penalty
+	 * presence penalty
 	 */
 	presencePenalty: () => LocalizedString
 	/**
-	 * Prompt
+	 * prompt
 	 */
 	prompt: () => LocalizedString
 	/**
-	 * Write literally anything
+	 * write literally anything
 	 */
 	promptPlaceholder: () => LocalizedString
 	/**
-	 * Pull model
+	 * pull model
 	 */
 	pullModel: () => LocalizedString
 	/**
-	 * Model tag (e.g. llama3.1)
+	 * model tag (e.g. llama3.1)
 	 */
 	pullModelPlaceholder: () => LocalizedString
 	/**
-	 * Pulling model
+	 * pulling model
 	 */
 	pullingModel: () => LocalizedString
 	/**
-	 * Random
+	 * random
 	 */
 	random: () => LocalizedString
 	/**
-	 * Reasoning
+	 * reasoning
 	 */
 	reasoning: () => LocalizedString
 	/**
-	 * Refresh to update
+	 * refresh to update
 	 */
 	refreshToUpdate: () => LocalizedString
 	/**
-	 * Release history
+	 * release history
 	 */
 	releaseHistory: () => LocalizedString
 	/**
-	 * Repeat last N
+	 * repeat last n
 	 */
 	repeatLastN: () => LocalizedString
 	/**
-	 * Repeat penalty
+	 * repeat penalty
 	 */
 	repeatPenalty: () => LocalizedString
 	/**
-	 * Retry
+	 * retry
 	 */
 	retry: () => LocalizedString
 	/**
-	 * Run
+	 * run
 	 */
 	run: () => LocalizedString
 	/**
-	 * Re-verify
+	 * re-verify
 	 */
 	reVerify: () => LocalizedString
 	/**
-	 * Runtime options
+	 * runtime options
 	 */
 	runtimeOptions: () => LocalizedString
 	/**
-	 * Save
+	 * save
 	 */
 	save: () => LocalizedString
 	/**
-	 * Search
+	 * search
 	 */
 	search: () => LocalizedString
 	/**
-	 * No results found
+	 * no results found
 	 */
 	searchEmpty: () => LocalizedString
 	/**
-	 * Seed
+	 * seed
 	 */
 	seed: () => LocalizedString
 	/**
-	 * See docs
+	 * see docs
 	 */
 	seeDocs: () => LocalizedString
 	/**
-	 * Servers
+	 * servers
 	 */
 	servers: () => LocalizedString
 	/**
-	 * Server configuration was updated and needs to be re-verified in "Settings"
+	 * server configuration was updated and needs to be re-verified in "settings"
 	 */
 	serverSettingsUpdated: () => LocalizedString
 	/**
-	 * Session
+	 * session
 	 */
 	session: () => LocalizedString
 	/**
-	 * Sessions
+	 * sessions
 	 */
 	sessions: () => LocalizedString
 	/**
-	 * Settings
+	 * settings
 	 */
 	settings: () => LocalizedString
 	/**
-	 * Sorry, something went wrong
+	 * sorry, something went wrong
 	 */
 	somethingWentWrong: () => LocalizedString
 	/**
-	 * Stop sequence
+	 * stop sequence
 	 */
 	stop: () => LocalizedString
 	/**
-	 * Stop completion
+	 * stop completion
 	 */
 	stopCompletion: () => LocalizedString
 	/**
-	 * Stop response
+	 * stop response
 	 */
 	stopResponse: () => LocalizedString
 	/**
-	 * Success
+	 * success
 	 */
 	success: () => LocalizedString
 	/**
-	 * System
+	 * system
 	 */
 	system: () => LocalizedString
 	/**
-	 * System prompt
+	 * system prompt
 	 */
 	systemPrompt: () => LocalizedString
 	/**
-	 * Temperature
+	 * temperature
 	 */
 	temperature: () => LocalizedString
 	/**
-	 * TFS Z
+	 * tfs z
 	 */
 	tfsZ: () => LocalizedString
 	/**
-	 * Top K
+	 * top k
 	 */
 	topK: () => LocalizedString
 	/**
-	 * Top P
+	 * top p
 	 */
 	topP: () => LocalizedString
 	/**
-	 * If you want to connect to an Ollama server that is not available on {hostname} or {ip} try
+	 * if you want to connect to an ollama server that is not available on {hostname} or {ip} try
 	 */
 	tryingToConnectNotLocalhost: (arg: { hostname: string, ip: string }) => LocalizedString
 	/**
-	 * Typical P
+	 * typical p
 	 */
 	typicalP: () => LocalizedString
 	/**
-	 * Use MLOCK
+	 * use mlock
 	 */
 	useMlock: () => LocalizedString
 	/**
-	 * Use MMAP
+	 * use mmap
 	 */
 	useMmap: () => LocalizedString
 	/**
-	 * Use models from this server
+	 * use models from this server
 	 */
 	useModelsFromThisServer: () => LocalizedString
 	/**
-	 * Verify
+	 * verify
 	 */
 	verify: () => LocalizedString
 	/**
-	 * Version
+	 * version
 	 */
 	version: () => LocalizedString
 	/**
-	 * Vocab only
+	 * vocab only
 	 */
 	vocabOnly: () => LocalizedString
 	/**
-	 * Write a prompt to start a new session
+	 * write a prompt to start a new session
 	 */
 	writePromptToStart: () => LocalizedString
 	/**
-	 * You
+	 * you
 	 */
 	you: () => LocalizedString
 	/**
-	 * Content copied, but your connection is not private
+	 * content copied, but your connection is not private
 	 */
 	copiedNotPrivate: () => LocalizedString
 	/**
-	 * Couldn't copy content. Connection is not private
+	 * couldn't copy content. connection is not private
 	 */
 	notCopiedNotPrivate: () => LocalizedString
 }

@@ -5,11 +5,11 @@ import { get, writable } from 'svelte/store';
 import { version } from '$app/environment';
 import { settingsStore } from '$lib/localStorage';
 
-import type { HollamaMetadata } from '../routes/api/metadata/+server';
+import type { myllamaMetadata } from '../routes/api/metadata/+server';
 import { GITHUB_RELEASES_API } from './github';
 
-const HOLLAMA_DEV_VERSION_SUFFIX = '-dev';
-const HOLLAMA_METADATA_ENDPOINT = '/api/metadata';
+const myllama_DEV_VERSION_SUFFIX = '-dev';
+const myllama_METADATA_ENDPOINT = '/api/metadata';
 const ONE_WEEK_IN_SECONDS = 604800;
 
 export interface UpdateStatus {
@@ -37,8 +37,8 @@ function isCurrentVersionLatest(currentVersion: string, latestVersion: string): 
 	return (
 		currentVersion === latestVersion ||
 		semver.gt(
-			currentVersion.replace(HOLLAMA_DEV_VERSION_SUFFIX, ''),
-			latestVersion.replace(HOLLAMA_DEV_VERSION_SUFFIX, '')
+			currentVersion.replace(myllama_DEV_VERSION_SUFFIX, ''),
+			latestVersion.replace(myllama_DEV_VERSION_SUFFIX, '')
 		)
 	);
 }
@@ -57,19 +57,19 @@ export async function checkForUpdates(isUserInitiated = false): Promise<void> {
 	updateStatus.isCheckingForUpdates = true;
 
 	// The server may have been already updated, so we fetch the latest metadata
-	let hollamaMetadata: Response;
+	let myllamaMetadata: Response;
 
 	try {
-		hollamaMetadata = await fetch(HOLLAMA_METADATA_ENDPOINT);
-		const metadata = (await hollamaMetadata.json()) as HollamaMetadata;
-		settings.hollamaMetadata = metadata;
+		myllamaMetadata = await fetch(myllama_METADATA_ENDPOINT);
+		const metadata = (await myllamaMetadata.json()) as myllamaMetadata;
+		settings.myllamaMetadata = metadata;
 	} catch (_) {
-		console.error('Failed to fetch Hollama server metadata');
+		console.error('Failed to fetch myllama server metadata');
 		updateStatus.couldntCheckForUpdates = true;
 	}
 
 	// Determine if the server has been updated, and if so, which version is the latest
-	updateStatus.latestVersion = settings.hollamaMetadata.currentVersion;
+	updateStatus.latestVersion = settings.myllamaMetadata.currentVersion;
 	updateStatus.isCurrentVersionLatest = isCurrentVersionLatest(version, updateStatus.latestVersion);
 	updateStatus.canRefreshToUpdate = !updateStatus.isCurrentVersionLatest;
 	updateStatus.showSidebarNotification = !updateStatus.isCurrentVersionLatest;
@@ -93,7 +93,7 @@ export async function checkForUpdates(isUserInitiated = false): Promise<void> {
 		}
 
 		updateStatus.isCurrentVersionLatest = isCurrentVersionLatest(
-			settings.hollamaMetadata.currentVersion,
+			settings.myllamaMetadata.currentVersion,
 			updateStatus.latestVersion
 		);
 		updateStatus.showSidebarNotification = !updateStatus.isCurrentVersionLatest;

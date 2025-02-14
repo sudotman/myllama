@@ -1,4 +1,4 @@
-# Hollama
+# myllama
 
 A minimal web-UI for talking to [Ollama](https://github.com/jmorganca/ollama/) servers.
 
@@ -21,9 +21,9 @@ A minimal web-UI for talking to [Ollama](https://github.com/jmorganca/ollama/) s
 
 ### Get started
 
-- ⚡️ [Live demo](https://hollama.fernando.is)
+- ⚡️ [Live demo](https://myllama.fernando.is)
   - _No sign-up required_
-- 🖥️ Download for [macOS, Windows & Linux](https://github.com/fmaclen/hollama/releases)
+- 🖥️ Download for [macOS, Windows & Linux](https://github.com/fmaclen/myllama/releases)
 - 🐳 [Self-hosting](SELF_HOSTING.md) with Docker
 - 🐞 [Contribute](CONTRIBUTING.md)
 

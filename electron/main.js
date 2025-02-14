@@ -3,8 +3,8 @@ import { join } from 'path';
 import { app, BrowserWindow, dialog, utilityProcess } from 'electron';
 
 // Vite default dev & production ports
-const hollamaPort = app.isPackaged ? '4173' : '5173';
-const HOLLAMA_HOST = '127.0.0.1';
+const myllamaPort = app.isPackaged ? '4173' : '5173';
+const myllama_HOST = '127.0.0.1';
 
 function createWindow() {
 	const mainWindow = new BrowserWindow({
@@ -15,7 +15,7 @@ function createWindow() {
 	});
 
 	mainWindow.menuBarVisible = false; // Windows: hides the menu bar
-	mainWindow.loadURL(`http://${HOLLAMA_HOST}:${hollamaPort}`);
+	mainWindow.loadURL(`http://${myllama_HOST}:${myllamaPort}`);
 }
 
 function checkServerAvailability(port) {
@@ -32,7 +32,7 @@ function checkServerAvailability(port) {
 				socket.destroy();
 
 				if (retries >= MAX_RETRIES) {
-					reject(new Error(`Couldn't connect to Hollama server after ${MAX_RETRIES} attempts`));
+					reject(new Error(`Couldn't connect to myllama server after ${MAX_RETRIES} attempts`));
 				} else {
 					retries++;
 					setTimeout(tryConnection, RETRY_INTERVAL_IN_MS);
@@ -43,7 +43,7 @@ function checkServerAvailability(port) {
 			socket.once('error', onError);
 			socket.once('timeout', onError);
 
-			socket.connect(port, HOLLAMA_HOST, () => {
+			socket.connect(port, myllama_HOST, () => {
 				socket.destroy();
 				resolve();
 			});
@@ -58,14 +58,14 @@ app
 	.then(async () => {
 		if (app.isPackaged) {
 			utilityProcess.fork(join(app.getAppPath(), 'build', 'index.js'), {
-				env: { ...process.env, PORT: hollamaPort }
+				env: { ...process.env, PORT: myllamaPort }
 			});
 		} else {
 			console.warn('##### Running Electron in development mode');
-			console.log('##### Run `npm run dev` to start the Hollama server separately');
+			console.log('##### Run `npm run dev` to start the myllama server separately');
 		}
 
-		await checkServerAvailability(parseInt(hollamaPort));
+		await checkServerAvailability(parseInt(myllamaPort));
 		createWindow();
 	})
 	.catch((error) => {

@@ -53,7 +53,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           accountId: ${{ secrets.CF_ACCOUNT_ID }}
-          command: pages publish .svelte-kit/cloudflare --project-name hollama
+          command: pages publish .svelte-kit/cloudflare --project-name myllama
 
   electron:
     needs: versioning
@@ -104,7 +104,7 @@ jobs:
       - name: Build & publish
         uses: mr-smithers-excellent/docker-build-push@v6
         with:
-          image: hollama
+          image: myllama
           registry: ghcr.io
           multiPlatform: true
           platform: linux/amd64,linux/arm64

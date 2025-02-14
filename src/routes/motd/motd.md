@@ -2,7 +2,7 @@
 
 ### Message of the day
 
-# Welcome to Hollama: a simple web interface for [Ollama](https://ollama.ai)
+# Welcome to myllama: a simple web interface for [Ollama](https://ollama.ai)
 
 #### What's new?
 
@@ -10,7 +10,7 @@
 - **Multiple-server support** allows you to connect to one or more Ollama (and/or OpenAI) servers at the same time.
 - **Bonjour le monde!** UI is now available in French.
 
-#### Previously, in Hollama
+#### Previously, in myllama
 
 - **Models list can be filtered** by keyword for each server.
 - **Servers can be labeled** to help you identify them in the models list.
@@ -22,19 +22,19 @@
 - **Enhanced models menu** now shows parameter size and highlights recently used models
 - **Download** [Ollama models](https://ollama.ai/models) from [Settings](/settings)
 - **Editable messages** in [Sessions](/sessions)
-- **Desktop app** is now available for [Windows, macOS & Linux](https://github.com/fmaclen/hollama/releases)
+- **Desktop app** is now available for [Windows, macOS & Linux](https://github.com/fmaclen/myllama/releases)
 
 #### What's next?
 
-- [In the works](https://github.com/fmaclen/hollama/pulls)
-- [Short-term priorities](https://github.com/fmaclen/hollama/issues?q=is%3Aissue+is%3Aopen+label%3Apriority)
+- [In the works](https://github.com/fmaclen/myllama/pulls)
+- [Short-term priorities](https://github.com/fmaclen/myllama/issues?q=is%3Aissue+is%3Aopen+label%3Apriority)
 - And we are **always tweaking the UI**
 
 #### Contributions
 
 We welcome contributions from people familiar with **Svelte**, **TypeScript** and **TailwindCSS**.
-If that sparks your interest, read this next: [`CONTRIBUTING.md`](https://github.com/fmaclen/hollama/blob/main/CONTRIBUTING.md)
+If that sparks your interest, read this next: [`CONTRIBUTING.md`](https://github.com/fmaclen/myllama/blob/main/CONTRIBUTING.md)
 
 #### About
 
-Created by [@fmaclen](https://fernando.is), made with the help of [contributors](https://github.com/fmaclen/hollama/graphs/contributors)
+Created by [@fmaclen](https://fernando.is), made with the help of [contributors](https://github.com/fmaclen/myllama/graphs/contributors)
